@@ -8,6 +8,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public mode: String = 'list';
   public todos: Todo[] = [];
   public title: String = 'Minhas Tarefas';
   public form: FormGroup;
@@ -20,6 +21,8 @@ export class AppComponent {
         Validators.required,
       ])]
     });
+
+    this.load();
   }
 
   add() {
@@ -35,9 +38,19 @@ export class AppComponent {
     localStorage.setItem('todos', data);
   }
 
+  load() {
+    const data = localStorage.getItem('todos');
+    if (data) {
+      this.todos = JSON.parse(data);
+    }
+    else {
+      this.todos = [];
+    }
+  }
+
   remove(todo: Todo) {
     const index = this.todos.indexOf(todo);
-    if(index !== -1) {
+    if (index !== -1) {
       this.todos.splice(index, 1);
     }
     this.save();
