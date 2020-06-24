@@ -48,6 +48,10 @@ export class AppComponent {
     }
   }
 
+  changeMode(mode:string) {
+    this.mode = mode;
+  }
+
   remove(todo: Todo) {
     const index = this.todos.indexOf(todo);
     if (index !== -1) {
