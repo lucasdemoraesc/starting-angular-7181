@@ -8,11 +8,11 @@ Este projeto foi desenvolvido ao longo do curso citado na descrição, e pode se
 
     git clone https://github.com/lucasdemoraesc/starting-angular-7181
 
-💻 Acesse, pelo terminal, a pasta principal do projeto (todo-app)
+🖥 Acesse, pelo terminal, a pasta principal do projeto (todo-app)
 
     cd ./starting-angular-7181/todo-app
 
-✅ Instale as dependências necessárias para executar a aplicação
+☑ Instale as dependências necessárias para executar a aplicação
 
     npm install
 
