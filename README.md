@@ -1,7 +1,7 @@
 # 🚀 Começando com Angular
 **Aprendendo os fundamentos de um dos melhores e mais famosos Frameworks JS.**
 
-Este projeto foi desenvolvido ao longo do curso citado na descrição, e pode ser baixado e executado a partir da CLI do Angular, como descrito abaixo.
+Este projeto foi desenvolvido ao longo do curso citado na descrição, e pode ser baixado e executado a partir da CLI do Angular, como descrito abaixo.\
 (Você também pode vê-lo funcionando no Github Pages seguindo o link: https://lucasdemoraesc.github.io/starting-angular-7181/)
 
 ⬇ Clone este repositório em sua máquina
