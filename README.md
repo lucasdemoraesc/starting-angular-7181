@@ -1,22 +1,23 @@
-# 🚀 Começando com Angular
+
+# :rocket: Começando com Angular
 **Aprendendo os fundamentos de um dos melhores e mais famosos Frameworks JS.**
 
 Este projeto foi desenvolvido ao longo do curso citado na descrição, e pode ser baixado e executado a partir da CLI do Angular, como descrito abaixo.\
 (Você também pode vê-lo funcionando no Github Pages seguindo o link: https://lucasdemoraesc.github.io/starting-angular-7181/)
 
-⬇ Clone este repositório em sua máquina
+:arrow_down: Clone este repositório em sua máquina
 
     git clone https://github.com/lucasdemoraesc/starting-angular-7181
 
-🖥 Acesse, pelo terminal, a pasta principal do projeto (todo-app)
+:desktop_computer: Acesse, pelo terminal, a pasta principal do projeto (todo-app)
 
     cd ./starting-angular-7181/todo-app
 
-☑ Instale as dependências necessárias para executar a aplicação
+:ballot_box_with_check: Instale as dependências necessárias para executar a aplicação
 
     npm install
 
-🔝 Feito isto, basta inicializar a aplicação
+:top: Feito isto, basta inicializar a aplicação
 
     ng serve # Acesse em localhost:4200
 
